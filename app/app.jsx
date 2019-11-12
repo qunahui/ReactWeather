@@ -8,6 +8,8 @@ var Examples = require('Examples');
 // npm install babel-preset-stage-0 --save-dev
 // support new features
 
+require('style-loader!css-loader!foundation-sites/dist/foundation.min.css')
+$(document).foundation();
 
 ReactDOM.render(
     <Router history={hashHistory}>
