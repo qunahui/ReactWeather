@@ -12,7 +12,7 @@ require('style-loader!css-loader!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
 // App CSS
-require('style-loader!css-loader!applicationStyles');
+require('style-loader!css-loader!sass-loader!applicationStyles');
 
 
 ReactDOM.render(
